@@ -1,0 +1,56 @@
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:linear-gradient(135deg,#141e30,#243b55);
+}
+
+.container{
+width:90%;
+margin:auto;
+padding:20px;
+}
+
+h1{
+text-align:center;
+color:white;
+margin-bottom:30px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 4px 15px rgba(0,0,0,0.3);
+}
+
+.card h2{
+color:#243b55;
+font-size:35px;
+}
+
+.card p{
+font-size:18px;
+}
+
+.report{
+margin-top:30px;
+background:white;
+padding:20px;
+border-radius:15px;
+}
+
+.report h2{
+color:#243b55;
+}
+
+.report li{
+padding:8px;
+font-size:17px;
+}
